@@ -1,20 +1,53 @@
-
-/* make jumbotro go to ends change footer; favicon replace home?; change links and css refs; underline lonks;
-make sure mobile compatible; make header so that can sepaerat nav bar; chage text colors of hyperlinks/foter--> */
+/* DEVELOPER Kerri Reed, IS117-005, Fall 2020 */
 
 body {
     padding-bottom: 120px;
-    background-color: orange;
+    background-color: white;
+    margin: 0 auto;
+    background-image: url("images/background.jpg");
+}
+
+a:hover{
+    background-color: lightgray;
+}
+
+header img {
+    float: left;
+    padding-top: .75em;
 }
 
 header{
-    background-image: url("images/kid.jpg");
-    padding-bottom: 0;
+    border-bottom: solid;
+    border-bottom-color: black;
+    padding-top: 0em;
+    padding-bottom: 2em;
+    padding-right: 1.5em;
+    font-family: "Americana BT";
+    background-color: white; !important;
+    color: black;
+}
+
+header h2{
+    padding-left: 2em;
+    font-weight: bold;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.75rem;
 }
 
 .jumbotron{
-    margin-bottom: 0;
-    background-color: darkred;
+    margin-bottom: 10px;
+    background-color: darkblue;
+    color:white;
 }
 .jumbotron img{
     object-fit: cover;
@@ -108,14 +141,4 @@ a.socialIcon:hover, .socialHoverClass {
 }
 
 
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rebeccapurple;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    font-size: 0.75rem;
-}
+

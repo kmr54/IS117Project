@@ -5,7 +5,7 @@ body {
     background-color: white;
     margin: 0 auto;
     background-image: url("images/background.jpg");
-    color: salmon;
+    color:white;
 }
 
 a:hover{
@@ -33,6 +33,24 @@ header h2{
     font-weight: bold;
 }
 
+
+.container .col-sm-12{
+    background-color: white;
+    color: salmon;
+    margin-top: 2em;
+}
+
+.container .col-sm-12 h2{
+    padding-top: 2em;
+}
+.container .col-sm-12 img{
+    margin: 4em 0;
+}
+
+.container .col-sm-12 p{
+    padding-bottom: 5em;
+}
+
 .footer {
     position: fixed;
     left: 0;
@@ -43,17 +61,4 @@ header h2{
     text-align: center;
     padding: 10px;
     font-size: 0.75rem;
-}
-
-a:hover {
-    color: hotpink;
-}
-
-.col-sm-4 a{
-    text-decoration: underline;
-}
-
-.container .col-sm-4{
-    margin-top: 1em;
-    background-color: white;
 }

@@ -1,11 +1,9 @@
 /* DEVELOPER Kerri Reed, IS117-005, Fall 2020 */
-
 body {
     padding-bottom: 120px;
     background-color: white;
     margin: 0 auto;
     background-image: url("images/background.jpg");
-    color: salmon;
 }
 
 a:hover{
@@ -45,15 +43,12 @@ header h2{
     font-size: 0.75rem;
 }
 
-a:hover {
-    color: hotpink;
+.card{
+    display: inline-block;
+    margin-bottom: 50px;
 }
 
-.col-sm-4 a{
-    text-decoration: underline;
-}
 
-.container .col-sm-4{
-    margin-top: 1em;
-    background-color: white;
+.title_text h1{
+    text-align: center;
 }

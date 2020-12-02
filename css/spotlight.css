@@ -1,3 +1,49 @@
+/* DEVELOPER Kerri Reed, IS117-005, Fall 2020 */
+
+body {
+    padding-bottom: 120px;
+    background-color: white;
+    margin: 0 auto;
+    background-image: url("images/background.jpg");
+}
+
+a:hover{
+    background-color: lightgray;
+}
+
+header img {
+    float: left;
+    padding-top: .75em;
+}
+
+header{
+    border-bottom: solid;
+    border-bottom-color: black;
+    padding-top: 0em;
+    padding-bottom: 2em;
+    padding-right: 1.5em;
+    font-family: "Americana BT";
+    background-color: white; !important;
+    color: black;
+}
+
+header h2{
+    padding-left: 2em;
+    font-weight: bold;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.75rem;
+}
+
 ul.social-network {
     list-style: none;
     display: inline;
@@ -73,7 +119,14 @@ a.socialIcon:hover, .socialHoverClass {
     -ms-transition: all 0.8s;
     transition: all 0.8s;
 }
-
+.container{
+    color: lightsalmon;
+}
+.container .col-sm-12{
+    background-color: white;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
 .card img {
     width: 100%;
     height: 15vw;
