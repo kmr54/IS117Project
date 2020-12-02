@@ -1,3 +1,5 @@
+<!-- DEVELOPER Kerri Reed, IS117-005, Fall 2020 -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,72 +9,70 @@
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
           crossorigin="anonymous">
-    <link href="archives.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="about.css" rel="stylesheet">
     <meta name = "viewport" content="width=device-width", initial-scale="1">
     <link rel="shortcut icon" href="images/favicon.ico">
 </head>
 
 <body>
-<div class="container-fluid">
-    <div class="row">
-        <nav class="navbar navbar-expand-md
+
+<header>
+    <a href="index.html"><img src = "images/favicon.ico" alt="Song logo" height="78"></a>
+    <h2>Song of the Day</h2>
+</header>
+
+<main>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="navbar navbar-expand-md
                     justify-content-start
-                    bg-dark navbar-dark
+                    bg-info navbar-light
                     col-12">
 
-            <!-- Brand -->
-            <a class="navbar-brand" href="index.html"><img src = "images/favicon.ico" alt="Song logo" height="80"></a>
-            <!-- Responsive Button for the smaller menu -->
-            <button class="navbar-toggler" type="button"
-                    data-toggle="collapse" data-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav">
-                    <!-- Links -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="spotlight.html">Artist Spotlight</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact Us</a>
-                    </li>
-                    <!-- Dropdown -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="songs.html" id="navbardrop"
-                           data-toggle="dropdown">
-                            Song of the Day
-                        </a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="archives.html">Archives</a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+                <!-- Responsive Button for the smaller menu -->
+                <button class="navbar-toggler" type="button"
+                        data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <!-- Links -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="songs.html">Song of the Day</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="spotlight.html">Artist Spotlight</a>
+                        </li>
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                               data-toggle="dropdown">
+                                More
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="about.html">About</a>
+                                <a class="dropdown-item" href="contact.html">Contact</a>
+                                <a class="dropdown-item" href="archives.html">Archives</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+        </div>
 
     </div>
-
-</div>
 
 <!--Content -->
 
 <div class="container">
     <div class="row">
         <div class="col-sm-12  text-center">
-            <p> <h2>What's this site all about?</h2></p>
-        </div>
-    </div>
-</div>
-
-<div class="container">
-    <div class="row">
-        <div class="col-sm-12  text-center">
+            <h2>What's this Site all About?</h2>
             <img src="images/listening.jpg" alt="cafe" height="200">
             <img src="images/kid.jpg" alt="cafe" height="200">
             <img src="images/lady.jpg" alt="cafe" height="200">
@@ -86,7 +86,7 @@
     </div>
 </div>
 
-
+</main>
 <footer class="footer page-footer font-small ">
     <div class="container">
         <div class="row">
