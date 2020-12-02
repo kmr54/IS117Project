@@ -50,9 +50,8 @@ header h2{
 }
 
 
-.title_text h1{
-    text-align: center;
+.container .col-sm-12{
     background-color: white;
-    margin-top: 2em;
     margin-bottom: 2em;
+    margin-top: 2em;
 }
