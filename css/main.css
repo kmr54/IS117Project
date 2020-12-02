@@ -21,8 +21,7 @@ header{
     padding-bottom: 2em;
     padding-right: 1.5em;
     font-family: "Americana BT";
-    background-image: url("images/background.jpg") !important;
-    /*background-color: white !important;*/
+    background-color: white !important;
     color: black;
 }
 
