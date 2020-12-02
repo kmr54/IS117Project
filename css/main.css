@@ -5,6 +5,9 @@ body {
     background-color: white;
     margin: 0 auto;
     background-image: url("images/background.jpg");
+    background-size: cover;
+   background-position: center;
+   height: 100vh;
 }
 a:hover{
     background-color: lightgray;
