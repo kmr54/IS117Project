@@ -3,9 +3,6 @@
 body {
     padding-bottom: 120px;
     margin: 0 auto;
-    
-}
-html{
     background-image: url("images/background.jpg");
 }
 a:hover{
@@ -24,7 +21,8 @@ header{
     padding-bottom: 2em;
     padding-right: 1.5em;
     font-family: "Americana BT";
-    background-color: white !important;
+    background-image: url("images/background.jpg");
+    /*background-color: white !important;*/
     color: black;
 }
 
