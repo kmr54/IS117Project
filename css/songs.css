@@ -53,4 +53,6 @@ header h2{
 .title_text h1{
     text-align: center;
     background-color: white;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
