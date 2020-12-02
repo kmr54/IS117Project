@@ -3,6 +3,9 @@
 body {
     padding-bottom: 120px;
     margin: 0 auto;
+    
+}
+html{
     background-image: url("images/background.jpg");
 }
 a:hover{
