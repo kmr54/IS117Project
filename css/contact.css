@@ -1,0 +1,10 @@
+.messagebox {
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.form-group{
+    width: 300px;
+}

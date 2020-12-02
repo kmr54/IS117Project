@@ -1,0 +1,27 @@
+
+/* make jumbotro go to ends change footer; favicon replace home?; change links and css refs; underline lonks;
+make sure mobile compatible; make header so that can sepaerat nav bar--> */
+
+body {
+    padding-bottom: 120px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rebeccapurple;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.75rem;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+.col-sm-4 a{
+    text-decoration: underline;
+}
